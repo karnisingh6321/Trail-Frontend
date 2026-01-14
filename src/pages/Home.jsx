@@ -1,9 +1,10 @@
-
+import MovieGrid from "../components/MovieGrid.jsx";
 
 function Home(){
     return (
-        <div className=' flex  justify-center p-20 '>
-            <h2 className=''></h2>
+        <div className=' '>
+            <h2 className=''>Globally Trending</h2>
+            <MovieGrid />
         </div>
     )
 }
