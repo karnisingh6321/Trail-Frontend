@@ -8,7 +8,7 @@ import ProfileDropdown from "./ProfileDropdown.jsx";
 function Navbar() {
     return (
 
-        <div className='w-full flex justify-between p-4 py-5 px-14 bg-[#16181c] text-white'>
+        <div className='w-full flex justify-between p-4 py-5 px-14 bg-[#08090b] text-white'>
             <h2 className='items-center flex'>Trail</h2>
             <div className='flex gap-9  font-medium items-center'>
                 <ProfileDropdown/>
