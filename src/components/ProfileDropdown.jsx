@@ -20,7 +20,7 @@ const ProfileDropdown = () => {
 
 
     return (
-        <div className="relative" ref={wrapperRef}>
+        <div className="relative z-50" ref={wrapperRef}>
             <button className='flex items-center justify-center text-white cursor-pointer gap-1' onClick={() => setOpen(!open)}>
                 <span className="leading-none">Profile</span>
                 <ChevronDown size={18} className='block'/>
