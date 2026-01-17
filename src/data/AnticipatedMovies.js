@@ -22,14 +22,14 @@ export const anticipatedMovies = [
     },
     {
         id: 204,
-        title: "Gladiator II",
-        year: 2024,
-        poster: "https://image.tmdb.org/t/p/w500/8RrB6f0kP0kYkT0e0y0yZz9G4.jpg",
+        title: "Marty Supreme",
+        year: 2025,
+        poster: "https://image.tmdb.org/t/p/w1280/firAhZA0uQvRL2slp7v3AnOj0ZX.jpg",
     },
     {
         id: 205,
         title: "The Batman: Part II",
-        year: 2025,
+        year: 2022,
         poster: "https://image.tmdb.org/t/p/w500/74xTEgt7R36Fpooo50r9T25onhq.jpg",
     },
     {
@@ -40,7 +40,7 @@ export const anticipatedMovies = [
     },
     {
         id: 207,
-        title: "Fantastic Four",
+        title: "Venom Let There Be Carnage",
         year: 2025,
         poster: "https://image.tmdb.org/t/p/w500/1MJNcPZy46hIy2CmSqOeru0yr5C.jpg",
     },
@@ -52,14 +52,14 @@ export const anticipatedMovies = [
     },
     {
         id: 209,
-        title: "Blade",
-        year: 2025,
-        poster: "https://image.tmdb.org/t/p/w500/8Y43POKjjKDGI9MH89NW0NAzzp8.jpg",
+        title: "Avengers Doomsday",
+        year: 2026,
+        poster: "https://image.tmdb.org/t/p/w1280/8HkIe2i4ScpCkcX9SzZ9IPasqWV.jpg",
     },
     {
         id: 210,
         title: "Superman",
         year: 2025,
-        poster: "https://image.tmdb.org/t/p/w500/2aQX7n3PB2JB5O4Sg6bXy1J8KZP.jpg",
+        poster: "https://image.tmdb.org/t/p/w1280/wPLysNDLffQLOVebZQCbXJEv6E6.jpg",
     },
 ];
