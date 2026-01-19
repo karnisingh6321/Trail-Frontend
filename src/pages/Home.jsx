@@ -1,4 +1,5 @@
 import MovieGrid from "../components/MovieGrid.jsx";
+import GenreRow from "../components/GenreRow.jsx";
 import {trendingMovies} from "../data/TrendingMovies.js";
 import { anticipatedMovies } from "../data/AnticipatedMovies";
 
@@ -15,6 +16,10 @@ function Home(){
             <div className='relative z-10 px-55 py-5  '>
                 <h2 className='text-xl text-white font-semibold mb-7 mt-15' >Highly Anticipated Movies</h2>
                 <MovieGrid movies={anticipatedMovies} />
+            </div>
+            <div className='relative z-10 px-10 py-5' >
+                <h2 className='text-xl text-white font-semibold mb-7 mt-15'>Browse By Genre</h2>
+                <GenreRow />
             </div>
         </div>
     )
