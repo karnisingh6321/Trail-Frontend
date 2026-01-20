@@ -8,7 +8,7 @@ export const genres = [
     { id: 5, name: "Sci-Fi", image:"https://image.tmdb.org/t/p/original/g3lCbTn3HYHTiFrfusxKGXMdyUW.jpg" },
     { id: 6, name: "Romance", image:"https://image.tmdb.org/t/p/original/uRDu9DiTVf97z5sj6qesmyQpYji.jpg" },
     { id: 7, name: "Thriller", image:"https://image.tmdb.org/t/p/original/fCmYZFsYgIylJcn0PmCpyATM4wF.jpg" },
-    { id: 8, name: "Fantasy", image:"" },
+    { id: 8, name: "Fantasy", image:"https://image.tmdb.org/t/p/original/8J6UlIFcU7eZfq9iCLbgc8Auklg.jpg" },
     { id: 9, name: "Animation", image:"https://image.tmdb.org/t/p/original/e59QkHTueqRelzq0thn5deCEKIG.jpg" },
-    { id: 10, name: "Adventure", image:"" },
+    { id: 10, name: "Adventure", image:"https://image.tmdb.org/t/p/original/wMPb9uQjeE6CJ2fJQlYzyhvA1HN.jpg" },
 ];
