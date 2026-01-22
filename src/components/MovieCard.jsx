@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import {Link} from "react-router-dom";
 
 
 const MovieCard = ({movie}) => {
@@ -21,7 +22,7 @@ const MovieCard = ({movie}) => {
     }, []);
 
     return (
-        <div className='group cursor-pointer hover:bg-white/5 hover:-translate-y-1 transition-transform duration-300 ease-out hover:rounded-lg p-3'>
+        <Link to={`/movie/${movie.id}`} className='group cursor-pointer hover:bg-white/5 hover:-translate-y-1 transition-transform duration-300 ease-out hover:rounded-lg p-3'>
             <div className='aspect-[2/3] overflow-hidden rounded-lg  '>
                 <img src={movie.poster} alt={movie.title} className=' h-full w-full group-hover:scale-110 overflow-hidden transition-transform duration-300 ease-out ' />
             </div>
@@ -30,7 +31,7 @@ const MovieCard = ({movie}) => {
                 <div ref={titleRef} className={`whitespace-nowrap text-base transition-transform  will-change-transform ease-linear ${isOverflowing ? "group-hover:-translate-x-[45%] duration-[6000ms]" : ""}`}>{movie.title}</div>
                 <span className='text-gray-500'>{movie.year}</span>
             </div>
-        </div>
+        </Link>
     )
 }
 
